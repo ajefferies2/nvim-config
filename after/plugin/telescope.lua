@@ -6,4 +6,5 @@ vim.keymap.set('n', '<leader>ps', function()
 
 end)
 
+vim.keymap.set('n', '<leader><leader>', ':Telescope buffers<CR>', {})
 
