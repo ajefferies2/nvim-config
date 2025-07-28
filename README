@@ -1,3 +1,6 @@
 - this is for my perosnal use and is messyish.
 - be sure to have packer installed. 
+	- git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/packer/start/packer.nvim
+	- source aj/init.lua
+	- source aj/packer.lua
 
