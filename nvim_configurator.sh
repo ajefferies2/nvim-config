@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-default_packer_dir="${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/pack/packer/"
+default_packer_dir="${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/pack/packer/start/packer.nvim"
 default_config_dir="${XDG_CONFIG_HOME:-$HOME/.config}/nvim/"
 
 read -rp "Enter packer install directory [${default_packer_dir}]: " input
