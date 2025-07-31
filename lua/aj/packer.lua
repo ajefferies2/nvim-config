@@ -27,9 +27,6 @@ return require('packer').startup(function(use)
   use ('mbbill/undotree')
   use ('tpope/vim-fugitive')
   use ('neovim/nvim-lspconfig')
-  use({'williamboman/mason.nvim', run = ':MasonUpdate'})
-  
-  use('williamboman/mason-lspconfig.nvim')
   use "hrsh7th/nvim-cmp"
   use "hrsh7th/cmp-nvim-lsp"
 
