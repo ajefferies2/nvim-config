@@ -1,3 +1,5 @@
 - this is for my perosnal use and is messyish.
 - be sure to have nvim > 0.10.0 
     - the script only installs packer.nvim (if needed) and sets config.
+- also make sure to have the language servers you want installed. 
+    - I have it configured for clangd, pyright and lua ls but you can add/rm
